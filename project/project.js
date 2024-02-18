@@ -47,7 +47,7 @@ const getNewQuote = () => {
     location.reload();
 }
 
-quote_button.addEventListener("click", getNewQuote);
+quote_button.addEventListener("click", getNewQuote); // fixed
 
 //getQuote();
 populateData(1);
