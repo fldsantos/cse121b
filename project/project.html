@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <link rel="stylesheet" type="text/css" href="project.css" />
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+      rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul id="menu">
+          <li><a id="toggleMenu">&equiv;</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../w01-task.html">W1 Task</a></li>
+          <li><a href="../w03-task.html">W3 Task</a></li>
+          <li><a href="../w04-task.html">W4 Task</a></li>
+          <li><a href="../w05-task.html">W5 Task</a></li>
+          <li><a href="project.html" class="active">Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="quote-box">
+            <img id="quote-pic">
+            <img src="quotes2.png" id="topquote">
+            <img src="quotes2.png" id="bottomquote">
+            <p id="quote-text"></p>
+            <p id="quote-author"></p>
+        </div>
+        <button id="switch-quote" onclick="getNewQuoute()">Get a new quote</button>
+    </main>
+    <script src="project.js"></script>
+    <footer>
+        &copy;<span id="year"></span> | Week 06 - Quote Generator | CSE 121b
+      </footer>
+      <script src="scripts/main.js"></script>
+      <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+      </script>
+</body>
+</html>

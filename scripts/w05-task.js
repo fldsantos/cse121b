@@ -57,3 +57,4 @@ document.querySelector("#filtered").addEventListener("change", () => {filterTemp
 
 
 getTemples();
+console.log(templeList)

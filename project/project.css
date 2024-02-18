@@ -1,0 +1,68 @@
+#quote-box {
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(175, 175, 175);
+    width: 1000px;
+    height: 600px;
+    border-radius: 5%;
+}
+
+#quote-pic {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    position: relative;
+    bottom: 150px;
+    border: 5px solid black;
+}
+
+#quote-text {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: fit-content;
+    text-align: center;
+    font-size: 42px;
+    position: relative;
+    bottom: 180px;
+}
+
+#quote-author {
+    margin-bottom: auto;
+    margin-left: 17%;
+    height: 100px;
+    text-align: center;
+    font-size: 28px;
+    position: fixed;    
+    bottom: 150px;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+}
+
+#topquote {
+    width:10%;
+    position: relative;
+    bottom: 100px;
+}
+
+#bottomquote {
+    width:10%;
+    position: relative;
+    top: 50px;
+    left: 750px;
+    transform: rotate(180deg);
+}
+
+#switch-quote {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 5px;
+    border: 5px solid black;
+}
